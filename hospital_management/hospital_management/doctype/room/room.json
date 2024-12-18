@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-13 19:53:49.573138",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "room_number",
+  "department_name",
+  "room_type",
+  "floor",
+  "bed_capacity",
+  "room_status",
+  "room_category",
+  "assigned_staff",
+  "room_features",
+  "room_rate",
+  "special_instructions"
+ ],
+ "fields": [
+  {
+   "fieldname": "room_number",
+   "fieldtype": "Int",
+   "label": "Room Number"
+  },
+  {
+   "fieldname": "department_name",
+   "fieldtype": "Link",
+   "label": "Department Name",
+   "options": "Department"
+  },
+  {
+   "fieldname": "room_type",
+   "fieldtype": "Select",
+   "label": "Room Type",
+   "options": "Single\nDouble\nICU\nOperating"
+  },
+  {
+   "fieldname": "floor",
+   "fieldtype": "Int",
+   "label": "Floor"
+  },
+  {
+   "fieldname": "bed_capacity",
+   "fieldtype": "Int",
+   "label": "Bed Capacity"
+  },
+  {
+   "fieldname": "room_status",
+   "fieldtype": "Select",
+   "label": "Room Status",
+   "options": "Available\nOccupied\nUnder Maintenance"
+  },
+  {
+   "fieldname": "room_category",
+   "fieldtype": "Select",
+   "label": "Room Category",
+   "options": "Critical Care\nPrivate\nGeneral"
+  },
+  {
+   "fieldname": "assigned_staff",
+   "fieldtype": "Link",
+   "label": "Assigned Staff",
+   "options": "User"
+  },
+  {
+   "fieldname": "room_features",
+   "fieldtype": "Data",
+   "label": " Room Features"
+  },
+  {
+   "fieldname": "room_rate",
+   "fieldtype": "Int",
+   "label": "Room Rate"
+  },
+  {
+   "fieldname": "special_instructions",
+   "fieldtype": "Small Text",
+   "label": " Special Instructions"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-13 20:06:06.722815",
+ "modified_by": "Administrator",
+ "module": "Hospital Management",
+ "name": "Room",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

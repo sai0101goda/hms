@@ -1,0 +1,117 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2024-12-13 17:51:43.757939",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "first_name",
+  "last_name",
+  "gender",
+  "mobile",
+  "address",
+  "email",
+  "date_of_birth",
+  "consulting_doctor",
+  "date_of_appointment",
+  "injurycontion",
+  "note",
+  "upload_report",
+  "time_of_appointment"
+ ],
+ "fields": [
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender"
+  },
+  {
+   "fieldname": "mobile",
+   "fieldtype": "Data",
+   "label": "Mobile"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Text Editor",
+   "label": "Address"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date Of Birth"
+  },
+  {
+   "fieldname": "consulting_doctor",
+   "fieldtype": "Link",
+   "label": "Consulting Doctor",
+   "options": "User"
+  },
+  {
+   "fieldname": "date_of_appointment",
+   "fieldtype": "Datetime",
+   "label": "Date Of Appointment"
+  },
+  {
+   "fieldname": "injurycontion",
+   "fieldtype": "Text Editor",
+   "label": " Injury/Contion"
+  },
+  {
+   "fieldname": "note",
+   "fieldtype": "Text Editor",
+   "label": "Note"
+  },
+  {
+   "fieldname": "upload_report",
+   "fieldtype": "Attach",
+   "label": "Upload Report"
+  },
+  {
+   "fieldname": "time_of_appointment",
+   "fieldtype": "Select",
+   "label": "Time Of Appointment",
+   "options": "10:30-11:00\n11:00-11:30\n11:30-12:00\n12:00-12:30\n12:30-01:00\n03:30-04:00\n04:00-04:30\n04:30-05:00\n05:00-05:30\n05:30-06:00"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-14 09:23:01.474426",
+ "modified_by": "Administrator",
+ "module": "Hospital Management",
+ "name": "Appointment",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,79 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-14 09:46:24.891134",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "case_no",
+  "patient_name",
+  "gender",
+  "death_date",
+  "gaurdian_name",
+  "mobile",
+  "address"
+ ],
+ "fields": [
+  {
+   "fieldname": "case_no",
+   "fieldtype": "Int",
+   "label": "Case No"
+  },
+  {
+   "fieldname": "patient_name",
+   "fieldtype": "Link",
+   "label": "Patient Name",
+   "options": "Patient"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "Male\nFemale\nOther"
+  },
+  {
+   "fieldname": "death_date",
+   "fieldtype": "Date",
+   "label": "Death Date"
+  },
+  {
+   "fieldname": "gaurdian_name",
+   "fieldtype": "Data",
+   "label": "Gaurdian Name"
+  },
+  {
+   "fieldname": "mobile",
+   "fieldtype": "Phone",
+   "label": "Mobile"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-14 09:53:37.711038",
+ "modified_by": "Administrator",
+ "module": "Hospital Management",
+ "name": "Death Record",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

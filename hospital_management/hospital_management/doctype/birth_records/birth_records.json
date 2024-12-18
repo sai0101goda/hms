@@ -1,0 +1,85 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-14 09:40:42.131612",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "case_no",
+  "child_name",
+  "birth_date",
+  "mother_name",
+  "father_name",
+  "mobile",
+  "address",
+  "gender"
+ ],
+ "fields": [
+  {
+   "fieldname": "case_no",
+   "fieldtype": "Int",
+   "label": "Case No"
+  },
+  {
+   "fieldname": "child_name",
+   "fieldtype": "Link",
+   "label": "Child Name",
+   "options": "Patient"
+  },
+  {
+   "fieldname": "birth_date",
+   "fieldtype": "Date",
+   "label": "Birth Date"
+  },
+  {
+   "fieldname": "mother_name",
+   "fieldtype": "Data",
+   "label": "Mother Name"
+  },
+  {
+   "fieldname": "father_name",
+   "fieldtype": "Data",
+   "label": "Father Name"
+  },
+  {
+   "fieldname": "mobile",
+   "fieldtype": "Phone",
+   "label": "Mobile"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "Male\nFemale"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-14 09:52:45.867826",
+ "modified_by": "Administrator",
+ "module": "Hospital Management",
+ "name": "Birth Records",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
