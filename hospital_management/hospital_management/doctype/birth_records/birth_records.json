@@ -18,18 +18,24 @@
   {
    "fieldname": "case_no",
    "fieldtype": "Int",
-   "label": "Case No"
+   "in_list_view": 1,
+   "label": "Case No",
+   "reqd": 1
   },
   {
    "fieldname": "child_name",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Child Name",
-   "options": "Patient"
+   "options": "Patient",
+   "reqd": 1
   },
   {
    "fieldname": "birth_date",
    "fieldtype": "Date",
-   "label": "Birth Date"
+   "in_list_view": 1,
+   "label": "Birth Date",
+   "reqd": 1
   },
   {
    "fieldname": "mother_name",
@@ -44,7 +50,9 @@
   {
    "fieldname": "mobile",
    "fieldtype": "Phone",
-   "label": "Mobile"
+   "in_list_view": 1,
+   "label": "Mobile",
+   "reqd": 1
   },
   {
    "fieldname": "address",
@@ -55,12 +63,13 @@
    "fieldname": "gender",
    "fieldtype": "Select",
    "label": "Gender",
-   "options": "Male\nFemale"
+   "options": "Male\nFemale",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-14 09:52:45.867826",
+ "modified": "2024-12-19 20:22:27.410567",
  "modified_by": "Administrator",
  "module": "Hospital Management",
  "name": "Birth Records",

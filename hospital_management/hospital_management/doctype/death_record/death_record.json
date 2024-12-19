@@ -17,19 +17,25 @@
   {
    "fieldname": "case_no",
    "fieldtype": "Int",
-   "label": "Case No"
+   "in_list_view": 1,
+   "label": "Case No",
+   "reqd": 1
   },
   {
    "fieldname": "patient_name",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Patient Name",
-   "options": "Patient"
+   "options": "Patient",
+   "reqd": 1
   },
   {
    "fieldname": "gender",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Gender",
-   "options": "Male\nFemale\nOther"
+   "options": "Male\nFemale\nOther",
+   "reqd": 1
   },
   {
    "fieldname": "death_date",
@@ -54,7 +60,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-14 09:53:37.711038",
+ "modified": "2024-12-19 20:23:39.647170",
  "modified_by": "Administrator",
  "module": "Hospital Management",
  "name": "Death Record",

@@ -20,20 +20,26 @@
   {
    "fieldname": "room_no",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Room No",
-   "options": "Room"
+   "options": "Room",
+   "reqd": 1
   },
   {
    "fieldname": "room_type",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Room Type",
-   "options": "General\nDelux\nSuper Delux\nICU"
+   "options": "General\nDelux\nSuper Delux\nICU",
+   "reqd": 1
   },
   {
    "fieldname": "patient_name",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Patient Name",
-   "options": "Patient"
+   "options": "Patient",
+   "reqd": 1
   },
   {
    "fieldname": "admission_date",
@@ -48,6 +54,7 @@
   {
    "fieldname": "gender",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Gender",
    "options": "Male\nFemale"
   },
@@ -55,7 +62,8 @@
    "fieldname": "doctor_assigned",
    "fieldtype": "Link",
    "label": "Doctor Assigned",
-   "options": "User"
+   "options": "User",
+   "reqd": 1
   },
   {
    "default": "Admitted",
@@ -78,7 +86,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-13 20:08:51.093565",
+ "modified": "2024-12-19 20:24:53.336525",
  "modified_by": "Administrator",
  "module": "Hospital Management",
  "name": "Room Allotment",

@@ -21,17 +21,23 @@
   {
    "fieldname": "email",
    "fieldtype": "Data",
-   "label": "Email"
+   "in_list_view": 1,
+   "label": "Email",
+   "reqd": 1
   },
   {
    "fieldname": "doctor_name",
    "fieldtype": "Data",
-   "label": "Doctor Name"
+   "in_list_view": 1,
+   "label": "Doctor Name",
+   "reqd": 1
   },
   {
    "fieldname": "mobile_no",
    "fieldtype": "Phone",
-   "label": "Mobile No"
+   "in_list_view": 1,
+   "label": "Mobile No",
+   "reqd": 1
   },
   {
    "fieldname": "linked_user",
@@ -42,8 +48,10 @@
   {
    "fieldname": "department",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Department",
-   "options": "Department"
+   "options": "Department",
+   "reqd": 1
   },
   {
    "fieldname": "designation",
@@ -74,12 +82,13 @@
    "fieldname": "gender",
    "fieldtype": "Select",
    "label": "Gender",
-   "options": "Male\nFemale"
+   "options": "Male\nFemale",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-19 09:47:08.332741",
+ "modified": "2024-12-19 20:00:53.266887",
  "modified_by": "Administrator",
  "module": "Hospital Management",
  "name": "Doctor",

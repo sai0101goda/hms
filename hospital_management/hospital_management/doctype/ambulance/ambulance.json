@@ -17,12 +17,16 @@
   {
    "fieldname": "vehicle_no",
    "fieldtype": "Data",
-   "label": "Vehicle No"
+   "in_list_view": 1,
+   "label": "Vehicle No",
+   "reqd": 1
   },
   {
    "fieldname": "vehicle_name",
    "fieldtype": "Data",
-   "label": "Vehicle Name"
+   "in_list_view": 1,
+   "label": "Vehicle Name",
+   "reqd": 1
   },
   {
    "fieldname": "year_made",
@@ -32,17 +36,22 @@
   {
    "fieldname": "driver_name",
    "fieldtype": "Data",
-   "label": "Driver Name"
+   "in_list_view": 1,
+   "label": "Driver Name",
+   "reqd": 1
   },
   {
    "fieldname": "driver_license_no",
    "fieldtype": "Data",
-   "label": "Driver License No"
+   "in_list_view": 1,
+   "label": "Driver License No",
+   "reqd": 1
   },
   {
    "fieldname": "driver_contact_no",
    "fieldtype": "Phone",
-   "label": "Driver Contact No"
+   "label": "Driver Contact No",
+   "reqd": 1
   },
   {
    "fieldname": "vehicle_type",
@@ -53,7 +62,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-14 10:26:42.307181",
+ "modified": "2024-12-19 20:23:18.546446",
  "modified_by": "Administrator",
  "module": "Hospital Management",
  "name": "Ambulance",
