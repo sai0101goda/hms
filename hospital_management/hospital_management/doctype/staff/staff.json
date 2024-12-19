@@ -7,7 +7,14 @@
  "field_order": [
   "designation",
   "education",
-  "department"
+  "department",
+  "email",
+  "staff_name",
+  "linked_user",
+  "mobile_no",
+  "gender",
+  "address",
+  "date_of_birth"
  ],
  "fields": [
   {
@@ -25,11 +32,48 @@
    "fieldtype": "Link",
    "label": "Department",
    "options": "Department"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "staff_name",
+   "fieldtype": "Data",
+   "label": "Staff Name"
+  },
+  {
+   "fieldname": "linked_user",
+   "fieldtype": "Link",
+   "label": "Linked User",
+   "options": "User"
+  },
+  {
+   "fieldname": "mobile_no",
+   "fieldtype": "Phone",
+   "label": "Mobile No"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "Male\nFemale"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date Of Birth"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-14 16:01:03.181584",
+ "modified": "2024-12-19 09:42:26.690172",
  "modified_by": "Administrator",
  "module": "Hospital Management",
  "name": "Staff",

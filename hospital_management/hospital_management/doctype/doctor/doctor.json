@@ -8,7 +8,14 @@
   "email",
   "doctor_name",
   "mobile_no",
-  "linked_user"
+  "linked_user",
+  "department",
+  "designation",
+  "address",
+  "education",
+  "profile",
+  "date_of_birth",
+  "gender"
  ],
  "fields": [
   {
@@ -31,11 +38,48 @@
    "fieldtype": "Link",
    "label": "Linked User",
    "options": "User"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "label": "Department",
+   "options": "Department"
+  },
+  {
+   "fieldname": "designation",
+   "fieldtype": "Data",
+   "label": " Designation"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "education",
+   "fieldtype": "Data",
+   "label": "Education"
+  },
+  {
+   "fieldname": "profile",
+   "fieldtype": "Attach",
+   "label": "Profile"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date Of Birth"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "Male\nFemale"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-12-17 21:07:21.507459",
+ "modified": "2024-12-19 09:47:08.332741",
  "modified_by": "Administrator",
  "module": "Hospital Management",
  "name": "Doctor",

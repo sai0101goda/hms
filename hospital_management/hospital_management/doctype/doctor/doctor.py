@@ -4,7 +4,7 @@
 
 import frappe
 from frappe.model.document import Document
-from frappe.model.naming import make_autoname  # Utility for generating unique IDs
+from frappe.model.naming import make_autoname  
 
 class Doctor(Document):
     def autoname(self):
